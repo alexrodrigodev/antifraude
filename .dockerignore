@@ -1,0 +1,13 @@
+.idea/
+.mvn/
+target/
+*.iml
+.git/
+.gitignore
+.gitattributes
+HELP.md
+docker-compose.yml
+
+# Impede o vazamento de credenciais locais na imagem Docker
+src/main/resources/application.properties
+*.env
